@@ -1,0 +1,250 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #ddddddf8;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  display: inline-flex;
+  margin: auto 0 auto 0;
+  text-decoration: blink;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+span {
+  font-weight: 600;
+}
+
+.title {
+  display: inline-flex;
+  margin: 3em 0 1em 1em;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #c62626;
+  display: inline-flex;
+  margin: auto 0.5em auto 1em;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  align-self: flex-end;
+  margin-bottom: 1em;
+  margin-right: 5em;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 200;
+  color: black;
+  margin-right: 1em;
+  letter-spacing: 1px;
+  padding: 0.2em 0.5em;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: #c62626;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: ease 0.5s;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+body .main {
+  width: 100%;
+  height: 100%;
+  background: chartreuse;
+}
+
+.bemvindo {
+  background-color: #dbd0d0;
+  position: absolute;
+  width: 490px;
+  height: 110px;
+  left: 250px;
+  top: 200px;
+  text-align: right;
+}
+
+.bemvindo:hover {
+  background-color: #dbd0d0;
+  position: absolute;
+  width: 490px;
+  height: 260px;
+  left: 250px;
+  top: 170px;
+  text-align: right;
+  border-radius: 10px;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.bemvindo p {
+  display: inline-block;
+  text-align: right;
+  margin: 0;
+  width: 70%;
+  position: relative;
+  margin-top: -20px;
+}
+
+.bvdesc {
+  position: relative;
+  top: 35px;
+  right: 10px;
+}
+
+.interesses {
+  background-color: #c4c4c4;
+  position: absolute;
+  width: 360px;
+  height: 160px;
+  left: 320px;
+  top: 500px;
+}
+
+.interesses:hover {
+  background-color: #c4c4c4;
+  position: absolute;
+  width: 360px;
+  height: 340px;
+  left: 320px;
+  top: 470px;
+  border-radius: 10px;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.interesses p {
+  display: inline-block;
+  margin: 0;
+  width: 90%;
+  position: relative;
+  margin-top: -15px;
+}
+
+.intdesc {
+  position: relative;
+  left: 10px;
+  top: 80px;
+}
+
+.habilidades {
+  background-color: #d15d5d;
+  position: absolute;
+  width: 300px;
+  height: 155px;
+  left: 840px;
+  top: 340px;
+}
+
+.habilidades:hover {
+  background-color: #d15d5d;
+  position: absolute;
+  width: 300px;
+  height: 335px;
+  left: 840px;
+  top: 310px;
+  border-radius: 10px;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.habilidades p {
+  display: inline-block;
+  margin-top: 80px;
+  width: 87%;
+  position: relative;
+}
+
+.habdesc {
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+
+.sobre {
+  background-color: #efcfcf;
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 1250px;
+  top: 260px;
+  text-align: right;
+}
+
+.sobre:hover {
+  background-color: #efcfcf;
+  position: absolute;
+  width: 350px;
+  height: 480px;
+  left: 1250px;
+  top: 230px;
+  text-align: right;
+  border-radius: 10px;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.sobredesc {
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+.sobre p {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.footer {
+  position: absolute;
+  left: 790px;
+  top: 860px;
+}
