@@ -1,0 +1,251 @@
+body {
+  background-color: #ddddddf8;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  display: inline-flex;
+  align-self: flex-end;  
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  }
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+span {
+  font-weight: 600;
+}
+
+.square {
+  width: 1em;
+  height: 1em;
+  background-color: #c62626;
+  display: inline-block;
+  padding: 0 2em 2em 0;
+  align-self: flex-end;  
+}
+
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5% 3% 0 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    /* maior que 836 x 610 está responsiva*/
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  align-self: flex-end;  
+  }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: black;
+  padding: 0.5em;
+  transition: ease 0.5s;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: #c62626;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+hr {
+ height: 1px;
+ color: black;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 2px;
+    margin-top: 0.5em;
+  }
+
+/* DESIGN NOVO */ 
+.container  {
+  display: flexbox;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  align-content: center;
+  position: fixed;
+}
+
+.bemvindo {
+  display: inline-flex;
+  flex-basis: auto;
+  background-color: #dbd0d0;
+  width: 16em;
+  height: 5em;
+  position: relative;
+  top: 1em;
+  left: 1em;
+  text-align: right;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.bemvindo:hover {
+  height: 12em;
+  border-radius: 10px;  
+  top: -0.2em;
+}
+  
+.bvdesc {   
+   position: relative;
+   top: 0.5em;
+   right: 0.5em;
+}
+
+.bemvindo p {    
+    position: relative;
+    top: -1em;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 0 0 2.5em;
+} 
+
+.interesses {
+  display: inline-flex;
+  flex-basis: auto;
+  background-color: #c4c4c4;
+  width: 14em;
+  height: 7em;
+  position: relative;
+  top: 14em;
+  right: 14em;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.interesses:hover {
+  position: relative;
+  height: 16.5em;
+  border-radius: 10px;
+  top: 13em;
+}
+
+.intdesc {
+  position: relative;
+  top: 2.5em;
+  left: 0.5em;
+}
+
+.interesses p {
+  position: relative;
+  box-sizing: border-box;
+  top: -1em;
+  padding: 0 1.5em 0 0;
+  text-align: left;
+}
+
+.habilidades {
+  display: inline-flex;
+  justify-self: flex-start; 
+  flex-basis: auto;
+  background-color: #d15d5d;
+  width: 14em;
+  height: 7em;
+  position: relative;
+  top: 8em;
+  right: 12em;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.habilidades:hover {
+  height: 16.5em;
+  border-radius: 10px;
+  position: relative;
+  top: 5em;
+}
+
+.habdesc {
+  position: relative;
+  top: -1.5em;
+  left: 0.5em;
+}
+
+.habilidades p {
+  position: relative;
+  width: 90%;
+  box-sizing: border-box;
+  top: 3em;
+  padding: 0 0.5em 0 0;
+  text-align: left;
+}
+
+.sobre {
+  display: inline-flex;
+  background-color: #efcfcf;
+  width: 13em;
+  height: 7em;
+  position: relative;
+  top: -2em;
+  left: 34em;
+  text-align: right;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.sobre:hover {
+  height: 16em;
+  top: 5em;
+  border-radius: 10px;
+  transition: 0.7s;
+  transition-timing-function: ease-in-out;
+}
+
+.sobredesc {
+  position: relative;
+  top: 2.5em;
+  right: 0.5em;
+}
+
+.sobre p {
+  position: relative;
+  margin-top: 1em;
+  padding: 0 0 0 1em;
+}
+/*
+
+.footer {
+}
